@@ -1,0 +1,76 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-color: bisque;
+  }
+
+  header {
+    background-color: #602a2a;
+    color: #fff;
+    padding: 5px; 
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  header h2 {
+    text-align: center;
+    position: absolute;
+    right: 600px;
+    color: rgb(250, 123, 123);
+  }
+
+  h3{
+    position: absolute;
+    right: 500px;
+    top: 50px;
+  }
+  header div {
+    position:relative;
+    width: 240px;
+    height:100px;
+    padding: 5px;
+    border-radius: 50%;
+    overflow:hidden;
+    text-align: center;
+    color: rgb(250, 123, 123);
+    background-image: url(https://imgs.search.brave.com/MSe4wBDPpJdYGBt7cZmSQV8N-bl6OBpXQpwRRu24iFA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTI4/NzQxMTE3L3Bob3Rv/L2Nob2NvbGF0ZS1j/aGlwcy5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9ZE43ekt3/b3BjTGgxUmYtaTFQ/V1E4Y0V6THZwaDls/cnNoMWZCNk1hZktu/TT0);
+  }
+
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 2rem;
+  }
+
+  .product {
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    padding: 1px;
+    text-align: center;
+    width: 300px;
+  }
+
+  .product img {
+     width: 200px;
+     height: 150px;
+     border: 1px solid #ddd;
+     border-radius: 50px 50px;
+  }
+
+  button {
+    background-color: rgb(202, 82, 82);
+    border: none;
+    color: white;
+    padding: 15px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+
+  } 
